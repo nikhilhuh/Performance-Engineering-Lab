@@ -9,6 +9,7 @@ export default function Home() {
       <button onClick={() => navigate("/caching")}>Caching Demo</button>
       <button onClick={() => navigate("/debouncing")}>Debouncing Demo</button>
       <button onClick={() => navigate("/throttling")}>Throttling Demo</button>
+      <button onClick={() => navigate("/loading")}>Loading Demo</button>
     </div>
   );
 }
