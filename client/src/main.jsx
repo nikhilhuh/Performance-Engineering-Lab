@@ -7,6 +7,7 @@ import Home from './pages/Home.jsx';
 import Caching from './pages/Caching.jsx';
 import Debouncing from './pages/Debouncing.jsx';
 import Throttling from './pages/Throttling.jsx';
+import PreOptimisation from './pages/PreOptimisation.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/debouncing" element={<Debouncing />} />
         <Route path="/throttling" element={<Throttling />} />
         <Route path="/loading" element={<LoadingDemo />} />
+        <Route path="/pre-optimisation" element={<PreOptimisation />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
